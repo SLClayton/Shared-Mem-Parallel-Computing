@@ -1,3 +1,5 @@
+This is coursework I did at university long long ago.
+
 ## CM30225 Parallel Computing Coursework 1 - University of Bath
 
 This is the solution of differential equations using a method called the relaxation technique. This is done by having an array of values and repeatedly replacing a value with the average of its four neighbours; excepting boundary values, which remain at fixed values. This is repeated until all values settle down to within a given precision. This is a shared memory parallel solution written in C using p_threads.
